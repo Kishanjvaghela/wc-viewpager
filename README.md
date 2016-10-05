@@ -18,6 +18,6 @@ Now you can use anywhere in your layout
 ```xml
 <com.kishan.wrapcontentviewpager.WcViewPager
           android:layout_width="match_parent"
-          android:layout_height="200dp"
+          android:layout_height="wrap_content"
           />
 ```
