@@ -1,5 +1,27 @@
 apply plugin: 'com.android.library'
+ext {
+  bintrayRepo = 'maven'
+  bintrayName = 'wc-viewpager'
 
+  publishedGroupId = 'com.kishan.wrapcontentviewpager'
+  libraryName = 'WcViewPager'
+  artifact = 'wc-viewpager'
+
+  libraryDescription = 'Wrapcontent ViewPager'
+
+  siteUrl = 'https://github.com/Kishanjvaghela/wc-viewpager'
+  gitUrl = 'https://github.com/Kishanjvaghela/wc-viewpager.git'
+
+  libraryVersion = '1.0'
+
+  developerId = 'kishanvaghela'
+  developerName = 'Kishan Vaghela'
+  developerEmail = 'kishan.j.vaghela@gmail.com'
+
+  licenseName = 'The Apache Software License, Version 2.0'
+  licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+  allLicenses = ["Apache-2.0"]
+}
 android {
   compileSdkVersion 24
   buildToolsVersion "24.0.3"
@@ -24,3 +46,6 @@ dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
   compile 'com.android.support:appcompat-v7:24.2.1'
 }
+
+apply from: '../install.gradle'
+apply from: '../bintray.gradle'
