@@ -2,12 +2,6 @@
 Wrap content height ViewPager
 
 ### How to use
-Add repository url in your gradle file
-```
- maven {
-            url 'https://dl.bintray.com/kishanvaghela/maven/'
- }
-```
 
 Add following dependencies
 ```
