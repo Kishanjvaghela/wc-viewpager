@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
     mViewPager = (ViewPager) findViewById(R.id.container);
     mViewPager.setAdapter(mSectionsPagerAdapter);
+    mViewPager.setOffscreenPageLimit(2);
   }
 
   /**
