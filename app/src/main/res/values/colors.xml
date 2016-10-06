@@ -6,4 +6,5 @@
   <color name="colorRed">#ff4040</color>
   <color name="colorGreen">#40ff69</color>
   <color name="colorBlue">#3F51B5</color>
+  <color name="colorGray">#AAAAAA</color>
 </resources>
